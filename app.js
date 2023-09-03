@@ -17,7 +17,7 @@ var user = {
 
 allUsers.push(user)
 localStorage.setItem('users',JSON.stringify(allUsers))
-location.href = './login.html'
+location.href = './index.html'
 }
 
 
@@ -38,7 +38,7 @@ function signin(){
 
 function signout(){
     localStorage.clear()
-    location.href = './login.html'
+    location.href = './index.html'
 }
 
 function sign(){
